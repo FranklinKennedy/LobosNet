@@ -3,4 +3,12 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="fundo">#c7461a</color>
+    <color name="fundo_tela_principal">#c16114</color>
+    <color name="agenda">#63bbdf</color>
+    <color name="text_tela_principal">#0006ec</color>
+    <color name="ideais">#519c33</color>
+    <color name="ordem_unida">#f4b706</color>
+    <color name="clases">#f6b805</color>
+
+
 </resources>

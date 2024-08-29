@@ -5,13 +5,104 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/fundo_tela_principal"
     tools:context=".tela_pricipal">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/agenda"
+        android:layout_width="181dp"
+        android:layout_height="161dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="168dp"
+        android:background="@drawable/botao_agenda"
+        android:text="Agenda"
+        android:textAllCaps="false"
+        android:gravity="bottom|center"
+        android:textColor="@color/text_tela_principal"
+        android:paddingBottom="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/classes"
+        android:layout_width="181dp"
+        android:layout_height="161dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="260dp"
+        android:background="@drawable/botao_classes"
+        android:text="Classes"
+        android:textAllCaps="false"
+        android:gravity="bottom|center"
+        android:textColor="@color/text_tela_principal"
+        android:paddingBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.625"
+        app:layout_constraintStart_toEndOf="@+id/ordem_unida"
+        app:layout_constraintTop_toBottomOf="@+id/ideais"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/ordem_unida"
+        android:layout_width="181dp"
+        android:layout_height="161dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginBottom="260dp"
+        android:background="@drawable/botao_ordem_unida"
+        android:text="Ordem unida"
+        android:textAllCaps="false"
+        android:gravity="bottom|center"
+        android:textColor="@color/text_tela_principal"
+        android:paddingBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/agenda"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/ideais"
+        android:layout_width="181dp"
+        android:layout_height="161dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="168dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/botao_idais"
+        android:text="Ideais"
+        android:textAllCaps="false"
+        android:gravity="bottom|center"
+        android:textColor="@color/text_tela_principal"
+        android:paddingBottom="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.625"
+        app:layout_constraintStart_toEndOf="@+id/agenda"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="176dp"
+        android:layout_height="141dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/lobo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="214dp"
-        tools:layout_editor_absoluteY="256dp" />
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="84dp"
+        android:text="Tem conta. Então acesa por aqui"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
