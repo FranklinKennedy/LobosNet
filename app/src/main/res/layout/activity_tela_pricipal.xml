@@ -9,7 +9,7 @@
     tools:context=".tela_pricipal">
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/agenda"
+        android:id="@+id/btn_agenda"
         android:layout_width="181dp"
         android:layout_height="161dp"
         android:layout_marginStart="15dp"
@@ -24,7 +24,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/classes"
+        android:id="@+id/btn_agenda_classes"
         android:layout_width="181dp"
         android:layout_height="161dp"
         android:layout_marginStart="10dp"
@@ -40,12 +40,12 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.625"
-        app:layout_constraintStart_toEndOf="@+id/ordem_unida"
-        app:layout_constraintTop_toBottomOf="@+id/ideais"
+        app:layout_constraintStart_toEndOf="@+id/btn_ordem_unida"
+        app:layout_constraintTop_toBottomOf="@+id/btn_ideais"
         app:layout_constraintVertical_bias="0.0" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/ordem_unida"
+        android:id="@+id/btn_ordem_unida"
         android:layout_width="181dp"
         android:layout_height="161dp"
         android:layout_marginStart="15dp"
@@ -59,11 +59,11 @@
         android:paddingBottom="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/agenda"
+        app:layout_constraintTop_toBottomOf="@+id/btn_agenda"
         app:layout_constraintVertical_bias="0.0" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/ideais"
+        android:id="@+id/btn_ideais"
         android:layout_width="181dp"
         android:layout_height="161dp"
         android:layout_marginStart="10dp"
@@ -77,7 +77,7 @@
         android:paddingBottom="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.625"
-        app:layout_constraintStart_toEndOf="@+id/agenda"
+        app:layout_constraintStart_toEndOf="@+id/btn_agenda"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
@@ -91,10 +91,11 @@
         app:srcCompat="@drawable/lobo" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/text_login"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
+        android:layout_marginTop="87dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="84dp"
         android:text="Tem conta. Então acesa por aqui"
@@ -103,6 +104,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_agenda_classes" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

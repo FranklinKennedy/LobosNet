@@ -5,7 +5,9 @@ plugins {
 android {
     namespace = "com.example.lobosnet"
     compileSdk = 34
-
+    viewBinding{
+        enable = true
+    }
     defaultConfig {
         applicationId = "com.example.lobosnet"
         minSdk = 24

@@ -16,6 +16,9 @@
             android:name=".login"
             android:exported="false" />
         <activity
+            android:name=".tipo_de_aceso"
+            android:exported="false" />
+        <activity
             android:name=".tela_pricipal"
             android:exported="false" />
         <activity
