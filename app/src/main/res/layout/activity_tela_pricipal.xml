@@ -8,20 +8,19 @@
     android:background="@color/fundo_tela_principal"
     tools:context=".tela_pricipal">
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_agenda"
-        android:layout_width="181dp"
-        android:layout_height="161dp"
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="176dp"
+        android:layout_height="141dp"
         android:layout_marginStart="15dp"
-        android:layout_marginTop="168dp"
-        android:background="@drawable/botao_agenda"
-        android:text="Agenda"
-        android:textAllCaps="false"
-        android:gravity="bottom|center"
-        android:textColor="@color/text_tela_principal"
-        android:paddingBottom="20dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/lobo" />
+
+
+
+
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_agenda_classes"
@@ -80,16 +79,6 @@
         app:layout_constraintStart_toEndOf="@+id/btn_agenda"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="176dp"
-        android:layout_height="141dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/lobo" />
-
     <TextView
         android:id="@+id/text_login"
         android:layout_width="0dp"
@@ -106,5 +95,31 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_agenda_classes" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_agenda"
+        android:layout_width="181dp"
+        android:layout_height="161dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="168dp"
+        android:background="@drawable/botao_agenda"
+        android:gravity="bottom|center"
+        android:paddingBottom="20dp"
+        android:text="Agenda"
+        android:textAllCaps="false"
+        android:textColor="@color/text_tela_principal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="79dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/btn_agenda"
+        app:layout_constraintStart_toStartOf="@+id/btn_agenda"
+        app:layout_constraintTop_toTopOf="@+id/btn_agenda"
+        app:srcCompat="@drawable/agenda" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
