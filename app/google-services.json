@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "854956031520",
+    "project_id": "lobos-net",
+    "storage_bucket": "lobos-net.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854956031520:android:b0691608fd77667fa14645",
+        "android_client_info": {
+          "package_name": "com.example.lobosnet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQt_AWkvp8sBAXkSShNRYOM5OIYZ4BvRQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
