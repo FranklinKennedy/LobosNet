@@ -94,4 +94,70 @@
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/imageView12"
       app:srcCompat="@drawable/btn_diretor_presenca" />
+
+  <TextView
+      android:id="@+id/textView8"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="10dp"
+      android:text="Agenda"
+      android:textColor="@color/letras_tela_principal"
+      app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+      app:layout_constraintEnd_toEndOf="@+id/imageView6"
+      app:layout_constraintStart_toStartOf="@+id/imageView6" />
+
+  <TextView
+      android:id="@+id/textView9"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="10dp"
+      android:text="Enviar Material"
+      android:textColor="@color/letras_tela_principal"
+      app:layout_constraintBottom_toBottomOf="@+id/imageView10"
+      app:layout_constraintEnd_toEndOf="@+id/imageView10"
+      app:layout_constraintStart_toStartOf="@+id/imageView10" />
+
+  <TextView
+      android:id="@+id/textView10"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="10dp"
+      android:text="Avisos"
+      android:textColor="@color/letras_tela_principal"
+      app:layout_constraintBottom_toBottomOf="@+id/imageView11"
+      app:layout_constraintEnd_toEndOf="@+id/imageView11"
+      app:layout_constraintStart_toStartOf="@+id/imageView11" />
+
+  <TextView
+      android:id="@+id/textView11"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="10dp"
+      android:text="Lobitos"
+      android:textColor="@color/letras_tela_principal"
+      app:layout_constraintBottom_toBottomOf="@+id/imageView12"
+      app:layout_constraintEnd_toEndOf="@+id/imageView12"
+      app:layout_constraintStart_toStartOf="@+id/imageView12" />
+
+  <TextView
+      android:id="@+id/textView12"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="10dp"
+      android:text="Menalidade"
+      android:textColor="@color/letras_tela_principal"
+      app:layout_constraintBottom_toBottomOf="@+id/imageView13"
+      app:layout_constraintEnd_toEndOf="@+id/imageView13"
+      app:layout_constraintStart_toStartOf="@+id/imageView13" />
+
+  <TextView
+      android:id="@+id/textView13"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="10dp"
+      android:text="Lista de presença"
+      android:textColor="@color/letras_tela_principal"
+      app:layout_constraintBottom_toBottomOf="@+id/imageView14"
+      app:layout_constraintEnd_toEndOf="@+id/imageView14"
+      app:layout_constraintStart_toStartOf="@+id/imageView14" />
 </androidx.constraintlayout.widget.ConstraintLayout>
