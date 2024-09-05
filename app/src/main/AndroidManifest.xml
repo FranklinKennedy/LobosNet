@@ -12,28 +12,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LobosNet"
         tools:targetApi="31">
-
+        <activity
+            android:name=".home_debravador"
+            android:exported="false" />
+        <activity
+            android:name=".home_responsaveis"
+            android:exported="false" />
         <activity
             android:name=".home_direcao"
             android:exported="false" />
-
         <activity
             android:name=".login"
             android:exported="false" />
-
         <activity
             android:name=".tipo_de_aceso"
             android:exported="true" /> <!-- Alterado para true -->
-
         <activity
             android:name=".tela_pricipal"
             android:exported="false" />
-
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
