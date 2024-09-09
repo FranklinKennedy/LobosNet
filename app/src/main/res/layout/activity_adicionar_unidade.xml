@@ -24,7 +24,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
-        android:id="@+id/spinner"
+        android:id="@+id/spinnerSexo"
         android:layout_width="409dp"
         android:layout_height="44dp"
         android:layout_marginStart="5dp"
@@ -32,10 +32,10 @@
         android:layout_marginEnd="5dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText" />
+        app:layout_constraintTop_toBottomOf="@+id/TextNomeDaUnidade" />
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/TextNomeDaUnidade"
         android:layout_width="0dp"
         android:layout_height="44dp"
         android:layout_marginStart="5dp"
@@ -49,7 +49,7 @@
         tools:layout_editor_absoluteY="67dp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnAdicioanrUnidade"
         android:layout_width="0dp"
         android:layout_height="44dp"
         android:layout_marginStart="50dp"
@@ -59,6 +59,6 @@
         android:text="Adicona Unidade"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner" />
+        app:layout_constraintTop_toBottomOf="@+id/spinnerSexo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
