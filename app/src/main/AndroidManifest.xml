@@ -13,6 +13,12 @@
         android:theme="@style/Theme.LobosNet"
         tools:targetApi="31">
         <activity
+            android:name=".adicionar_unidade"
+            android:exported="false" />
+        <activity
+            android:name=".cadatro_de_desbaravdor"
+            android:exported="false" />
+        <activity
             android:name=".Cadastrar_Desbaravdor"
             android:exported="false" />
         <activity
