@@ -130,3 +130,5 @@ public class login extends AppCompatActivity {
         finish(); // Opcional: Finaliza a atividade atual para não retornar a ela ao pressionar "voltar"
     }
 }
+
+

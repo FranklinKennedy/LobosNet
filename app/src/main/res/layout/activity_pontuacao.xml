@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundo_tela_principal"
+    tools:context=".pontuacao">
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Pontuação"
+        android:textColor="@color/white"
+        android:textAllCaps="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/desbravador"
+        android:layout_width="175dp"
+        android:layout_height="297dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="55dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21"
+        app:srcCompat="@drawable/cadastra_debaravdor" />
+
+    <ImageView
+        android:id="@+id/unidade"
+        android:layout_width="175dp"
+        android:layout_height="297dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21"
+        app:srcCompat="@drawable/cadastra_unidade" />
+
+    <TextView
+        android:id="@+id/TextDebravador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:text="Desbravador"
+        android:textColor="@color/letras_tela_principal"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/desbravador"
+        app:layout_constraintEnd_toEndOf="@+id/desbravador"
+        app:layout_constraintStart_toStartOf="@+id/desbravador" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:text="Unidade"
+        android:textSize="20dp"
+        android:textColor="@color/letras_tela_principal"
+        app:layout_constraintBottom_toBottomOf="@+id/unidade"
+        app:layout_constraintEnd_toEndOf="@+id/unidade"
+        app:layout_constraintStart_toStartOf="@+id/unidade" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,14 +6,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/fundo_tela_principal"
-    tools:context=".gerenciar_material">
-
+    tools:context=".gerenciar_avisos">
     <TextView
         android:id="@+id/textView21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
-        android:text="Materail já enviado"
+        android:text="Avisos já enviado"
         android:textColor="@color/white"
         android:textAllCaps="true"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,7 +22,7 @@
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="402dp"
         android:layout_height="625dp"
-        android:layout_marginStart="2dp"
+        android:layout_marginStart="1dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="8dp"
         app:layout_constraintEnd_toEndOf="parent"

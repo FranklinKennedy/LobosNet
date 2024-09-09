@@ -13,6 +13,37 @@
         android:theme="@style/Theme.LobosNet"
         tools:targetApi="31">
         <activity
+            android:name=".adicionar_lobitos"
+            android:exported="false" />
+        <activity
+            android:name=".adcionar_pontos"
+            android:exported="false" />
+        <activity
+            android:name=".retirar_lobitos"
+            android:exported="false" />
+        <activity
+            android:name=".Lobitos"
+            android:exported="false" />
+        <activity
+            android:name=".adicionar_ponto"
+            android:exported="false" />
+        <activity
+            android:name=".tira_ponto"
+            android:exported="false"
+            android:theme="@style/Theme.LobosNet" />
+        <activity
+            android:name=".tira_ou_adiconar_ponto"
+            android:exported="false" />
+        <activity
+            android:name=".pontuacao"
+            android:exported="false" />
+        <activity
+            android:name=".gerenciar_avisos"
+            android:exported="false" />
+        <activity
+            android:name=".avisos"
+            android:exported="false" />
+        <activity
             android:name=".gerenciar_material"
             android:exported="false" />
         <activity
