@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
     <application
         android:allowBackup="true"
@@ -15,9 +16,7 @@
         <activity
             android:name=".adicionar_lobitos"
             android:exported="false" />
-        <activity
-            android:name=".adcionar_pontos"
-            android:exported="false" />
+
         <activity
             android:name=".retirar_lobitos"
             android:exported="false" />
@@ -49,9 +48,7 @@
         <activity
             android:name=".enviar_material"
             android:exported="false" />
-        <activity
-            android:name=".En"
-            android:exported="false" />
+
         <activity
             android:name=".adicionar_unidade"
             android:exported="false" />
